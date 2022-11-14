@@ -1,7 +1,8 @@
-public class SymbolTable{ //first question: still a bit 
+public class SymbolTable <K extends Comparable<Key>, value>
+{ //first question: still a bit 
 						//shakey on syntax of comparable and compare to... insight?
 
-	//node object 
+	//node object (node class?)
 	node(k,v){ //k extendends comparable k?
 		k key; 
 		v val; 
